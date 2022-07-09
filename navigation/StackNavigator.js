@@ -18,10 +18,7 @@ const StackNavigator = () => {
 					) => (
 						<Image
 							style={{ width: 380, height: 50 }}
-							source={{
-								uri: "https://upload.wikimedia.org/wikipedia/commons/3/36/Hopetoun_falls.jpg",
-							}}
-							// source={require("../assets/images/app-logo-1.png")}
+							source={require("../assets/logo.png")}
 							resizeMode="contain"
 						/>
 					),
