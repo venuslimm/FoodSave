@@ -1,6 +1,5 @@
 import * as React from "react";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import { View, Image, Text } from "react-native";
 import Home from "../screens/Home/Home";
 import PostForm from "../screens/PostForm/PostForm";
 
@@ -14,7 +13,14 @@ const StackNavigator = () => {
         component={Home}
         options={{ headerShown: false }}
       />
-      <Stack.Screen name="PostForm" component={PostForm} />
+      <Stack.Screen
+        name="PostForm"
+        component={PostForm}
+        options={{
+          title: "Create Food Item",
+          headerTintColor: "#47896D",
+        }}
+      />
     </Stack.Navigator>
   );
 };
