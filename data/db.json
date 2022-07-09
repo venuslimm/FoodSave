@@ -2,6 +2,7 @@
   "posts": [
     {
       "id": 1,
+      "image": "",
       "foodName": "Chicken Rice",
       "location": "Jurong East",
       "postedBy": "Mary",
@@ -9,12 +10,14 @@
     },
     {
       "id": 2,
+      "image": "",
       "foodName": "Chicken Rice",
       "location": "Lorong Chuan",
       "postedBy": "Mary",
       "contact": "91234567"
     },
     {
+      "image": "",
       "foodName": "Char Siew Rice",
       "location": "Bukit Batok",
       "postedBy": "Jack",

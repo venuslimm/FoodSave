@@ -12,6 +12,8 @@ import React from "react";
 import Item from "./Item";
 import Icon from "react-native-vector-icons/MaterialIcons";
 
+const axios = require("axios").default;
+
 export default function Home({ navigation }) {
   return (
     <>
