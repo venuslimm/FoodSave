@@ -24,7 +24,10 @@ const StackNavigator = () => {
 					),
 				}}
 			/>
-			<Stack.Screen name="PostForm" component={PostForm} />
+			<Stack.Screen name="PostForm" component={PostForm} options={{
+				title: "Create Food Item",
+				headerTintColor: "#47896D"
+			}}/>
 		</Stack.Navigator>
 	);
 };
