@@ -66,10 +66,10 @@ export default function Item() {
 						<TitleValueText title="Halal" value="Yes" />
 					</View>
 					<View style={styles.itemButtonsContainer}>
-						<TouchableOpacity style={styles.itemButton}>
+						<TouchableOpacity style={styles.itemButton} onPress={toggleModal}>
 							<Icon name={"edit"} size={20} color="#FFFFFF" />
 						</TouchableOpacity>
-						<TouchableOpacity style={styles.itemButton}>
+						<TouchableOpacity style={styles.itemButton} onPress={toggleModal}>
 							<Icon name={"delete"} size={20} color="#FFFFFF" />
 						</TouchableOpacity>
 						<TouchableOpacity style={styles.itemButton}>
