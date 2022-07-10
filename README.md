@@ -65,3 +65,5 @@ We are using a fake server called [JSON Server](https://www.npmjs.com/package/js
 7. Add specific location where the food item is at
 
 8. Change the backend server for production
+
+9. Work on the filter and bookmark modal views.
